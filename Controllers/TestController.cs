@@ -11,7 +11,7 @@ public class TestController : ControllerBase
     [HttpGet]
     public IActionResult Index()
     {
-        return Ok("Hello World!");
+        return Ok("Hello World!!");
     }
 
     [Authorize]
